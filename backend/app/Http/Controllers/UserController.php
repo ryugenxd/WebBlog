@@ -70,6 +70,11 @@ class UserController extends Controller
 
     // get current user
 
+    public function current(): string
+    {
+        return "user";
+    }
+
     // logout
 
 }
